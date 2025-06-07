@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.card {
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+img {
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: linear-gradient(to left, #3498db, #2ecc71);
+    border: none;
+    color: white;
+    
+}
+
+button:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05);
+}
+
+button:active {
+    transition: opacity 0.3s;
+    opacity: 0.8;
+}
+
+.sale {
+    text-decoration: line-through;
+    color: #e74c3c;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.info {
+    margin: 15px 0;
+}
+.favorite{
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: right;
+    
+}
+.favorite a{
+    text-decoration: none
+}
